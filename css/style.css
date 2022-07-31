@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Space Mono', monospace;
+    
+}
+/* container 1 */
+.container1{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Crete Round', serif;
+}
+.navbar{
+    color: white;
+    display: flex;
+    height: 20%;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.lists{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.list-items{
+    padding: 20px;
+    font-size: 25px;
+    transition: border-bottom 200ms;
+}
+.list-items:hover{
+    border-bottom: 3px solid red;
+}
+.intro{
+    color: white;
+    display: flex;
+}
+.introimg{
+    width: 50%;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.introtxt{
+    width: 60%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introtxt h4{
+    font-size: 30px;
+    color: red;
+}
+.introtxt h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+.introtxt h3{
+    width: 500px;
+}
+.introtxt button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* container 2 */
+.container2{
+    height: 80vh;
+    background: linear-gradient(to right, #181818, #181818 50%, #000 50%, #000 100%);
+    display: flex;
+    flex-direction: column;
+}
+.c21{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 90%;
+    width: 25%;
+    margin: 30px;
+    padding: 10px;
+    background-color: #151515;
+    border-radius: 8px;
+}
+.cardicon{
+    height: 40%;
+}
+.cardtext{
+    height: 60%;
+    color: white;
+}
+.cardtext h1{
+    font-size: 45px;
+}
+.cardtext h4{
+    width: 90%;
+}
+.cardtext h5{
+    margin-top: 5%;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+.red-card{
+    background-color: red;
+}
+.c22{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c221{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.c221 h1{
+    color: red;
+    font-size: 150px;
+}
+.c221 h4{
+    font-size: 30px;
+    color: white;
+}
+.c222{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.smallcards{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sc{
+    width: 40%;
+    height: 80%;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+.sc h1{
+    color: red;
+    font-size: 70px;
+}
+.sc h4{
+    font-size: 20px;
+}
+/* feature product */
+.featureproduct{
+    height: 100vh;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.fptitle{
+    height: 15%;
+    display: flex;
+}
+.fpttxt{
+    width: 50%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.fpview-more-btn{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fpview-more-btn button{
+    color: white;
+    background-color: red;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-right: 5%;
+    font-size: 22px;
+    cursor: pointer;
+}
+.fpcards{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fpcards-row{
+    width: 80%;
+    height: 50%;
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fpcard{
+    width: 30%;
+}
+.fpcard div:nth-child(1){
+    height: 75%;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fpcard div:nth-child(2){
+    font-size: 25px;
+    height: 15%;
+}
+.fpcard div:nth-child(3){
+    font-size: 15px;
+    color: red;
+    height: 10%;
+    cursor: pointer;
+}
+/* lets work together */
+.lastprt{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.lastprttxt{
+    height: 65%;
+    width: 40%;
+    background-color: #1e1e1e;
+    color: white;
+}
+.lastprttxt div:nth-child(1){
+    font-size: 45px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.lastprttxt div:nth-child(2){
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.lastprt-btn{
+    height: 65%;
+    width: 20%;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lastprt-btn button{
+    color: white;
+    background-color: red;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-right: 15%;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* bottom navigation bar */
+.bottomnav{
+    height: 10vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bnb{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.bnb-items{
+    font-size: 25px;
+    width: 20%;
+    color: #a7a7a7;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.bnb-items:hover{
+    color: white;
+}
+/* footer */
+.footer{
+    height: 15vh;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flogo{
+    width: 25%;
+}
+.ficons{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ficons i{
+    color: white;
+    padding: 25px;
+    cursor: pointer;
+    transition: color 200ms;
+}
+.ficons i:nth-child(1):hover{
+    color: rgb(65, 65, 230);
+}
+.ficons i:nth-child(2):hover{
+    color: rgb(23, 169, 227);
+}
+.ficons i:nth-child(3):hover{
+    color: rgb(226, 41, 41);
+}
