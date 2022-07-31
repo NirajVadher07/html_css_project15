@@ -15,7 +15,7 @@ In this project I was given the task to make a home page which should look like 
 ![result](result3.png)
 
 ![result](result4.png)
-`ZOOM:100%`
+`ZOOM:67%`
 ## Learning
 In this project i get to learn many thing like
 - how to add navigation bar using flex
