@@ -342,3 +342,120 @@
 .ficons i:nth-child(3):hover{
     color: rgb(226, 41, 41);
 }
+
+@media screen and (max-width:900px){
+    .container1{
+        height: fit-content;    
+        width: 100vw;    
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        width: 100vw;
+        justify-content: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .lists{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro{
+        flex-direction: column-reverse;        
+    }
+    .introtxt{
+        width: 100vw;
+        padding-left: 20px;
+    }
+    .introimg{
+        width: 100vw;       
+    }
+    .container2{
+        height: fit-content;
+        width: 100vw;
+    }
+    .c21{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 33%;
+    }
+    .c22{
+        flex-direction: column;
+    }
+    .c221{
+        padding: 10px;
+    }
+    .smallcards{
+        padding: 10px;
+    }
+    .sc{
+        width: 45%;
+        padding: 10px;
+    }
+    .featureproduct{
+        height: fit-content;
+        width: 100vw;
+    }
+    .fptitle{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .fpttxt{
+        width: 100vw;
+        padding: 10px;
+    }
+    .fpview-more-btn{
+        width: 100vw;
+        justify-content: flex-start;
+        padding-left: 50px;
+    }
+    .fpcards-row{
+        padding: 10px;
+    }
+    .fpcard{
+        width: 45%;
+        justify-content: space-evenly;
+    }
+    .fpcard div:nth-child(1) img{
+        padding: 30px;
+    }
+    .lastprt{
+        width: 100vw;
+    }
+    .lastprttxt{
+        width: 45%;
+    }
+    .lastprttxt div:nth-child(1){
+        font-size: 30px;
+    }
+    .lastprt-btn{
+        width: 30%;
+    }
+    .bottomnav{
+        width: 100vw;
+    }
+    .bnb{
+        width: 60%;
+    }
+    .footer{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flogo{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .ficons{
+        justify-content: center;
+        width: 50%;
+    }
+}
