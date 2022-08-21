@@ -49,6 +49,9 @@
     justify-content: center;
     align-items: flex-end;
 }
+.introimg img{
+    width: 60%;
+}
 .introtxt{
     width: 60%;
     height: 48vh;
@@ -344,6 +347,9 @@
 }
 
 @media screen and (max-width:900px){
+    body{
+        width: 100vw;
+    }
     .container1{
         height: fit-content;    
         width: 100vw;    
@@ -368,9 +374,12 @@
     .intro{
         flex-direction: column-reverse;        
     }
+    .introimg img{
+        width: 100%;
+    }
     .introtxt{
-        width: 100vw;
-        padding-left: 20px;
+        width: 90vw;
+        padding: 10px;
         font-size: 10px;
         height: fit-content;
     }
@@ -460,15 +469,19 @@
     .bottomnav{
         width: 100vw;
         height: fit-content;
+        justify-content: center;
+        align-items: center;
     }
     .bnb{
-        width: 100%;
+        width: 90%;
+        margin-top: 1%;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
     .bnb-items{
-        margin: 3%;
+        width: fit-content;
+        margin: 5px;
     }
     .footer{
         width: 100vw;
